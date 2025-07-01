@@ -12,8 +12,8 @@ export const Projects = () =>{
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {/*first project  */}
                 <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow[0_2px_8px_rgba(59,130,246,0.2)] transition ">
-                    <h3 className="text-xl font-bold mb-2">Acme Dashboard</h3>
-                    <p className="text-gray-400 mb-4">Acme is a responsive and modern dashboard application designed to help users visualize and manage data effectively. It features clean UI components, dynamic charts, and user interaction elements that enhance the experience of monitoring key metrics in real-time.</p>
+                    <h3 className="text-xl font-bold mb-2">Nextjs Blog</h3>
+                    <p className="text-gray-400 mb-4">This  Next.js blog is a fast, SEO-friendly web application built using the Next.js framework. It supports server-side rendering (SSR), static site generation (SSG), and dynamic routing—making it ideal for blogs that require high performance and easy content updates. With features like Markdown support, API integration, and automatic code splitting, a Next.js blog offers a modern, scalable way to share articles and content online.</p>
                     <div className="flex flex-wrap gap-2 mb-4">
                         {["React","Next.js","Postgres"].map((tech,key) => (
                             <span 
@@ -25,7 +25,7 @@ export const Projects = () =>{
                         ))}
                     </div>
                     <div className="flex justify-between items-center">
-                        <a href="#"className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project →</a>
+                        <a href="https://nextjs-blog-1mhin0kgm-ramseys-projects-014b0eb5.vercel.app/" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project →</a>
                     </div>
                 </div>
                 {/* second project */}
