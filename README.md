@@ -10,3 +10,27 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+project documentation
+npm install -g create-vite
+npx create-vite
+.
+react
+javascript
+npm install
+npm run dev "run dev locally"
+npm install tailwindcss @tailwindcss/vite
+npm install emailjs-com
+
+npm install gh-pages --save-dev
+//vite.config
+base:githubusername/repositoryname
+//package.json
+"homepage":"link"
+//package,json/scripts
+"predeploy":"npm run build",
+"deploy":"gh-pages -d dist"
+
+npm run deploy
+
+
