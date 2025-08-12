@@ -32,5 +32,5 @@ base:githubusername/repositoryname
 "deploy":"gh-pages -d dist"
 
 npm run deploy
-
+.
 
